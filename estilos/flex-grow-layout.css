@@ -1,0 +1,17 @@
+/* (0,0,2) */
+body main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Establece la anchura de las dos primeras secciones al 50% */
+body main section:nth-child(n+1) {
+  flex-grow: 1;
+  flex-basis: calc(35% - 1em);
+}
+
+/* Restablece la anchura de la tercera sección al 100% */
+body main section:nth-child(n+3) {
+  flex-basis: calc(100% - 1em);
+}

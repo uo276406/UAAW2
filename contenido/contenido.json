@@ -1,0 +1,20 @@
+{
+    "pages" : [
+        {
+            "id": "index.html",
+            "content": "Nombre Diego González Suárez Email uo276406@uniovi.es Carta de presentación Me gradué en junio de 2023 en Ingeniería del Informática del Software en la Universidad de Oviedo. Siempre me ha gustado mucho la tecnología y todo lo relacionado con ella. Más o menos me considero bastante trabajador y organizado. <h2> Certificaciones y Experiencia profesional Node.js developer. The Cocktail. Octubre 2023 - Actualidad. Becario en la Cátedra en IA y análisis de datos. TotalEnergies. Julio 2022 - Agosto 2022. CEFR Level B2 en inglés. Escuela Oficial de Idiomas. Junio 2021."
+        },
+        {
+            "id": "aficiones.html",
+            "content": "Aficiones Aficion Deportes Me gusta mucho el deporte en general, tanto practicarlo como verlo. Los deportes que más me gustan son: Fútbol Pádel Fórmula 1 Senderismo Motos Me gusta mucho hacer viajes en moto. Suelo seguir además a muchos influencers que son motoviajeros y documentan en Youtube y otras plataformas sus aventuras por el mundo, algunos de ellos son: Nico - Ride Me Five Charly Sinewan Pablo Imhoff Aquí puedes ver un pequeño video de Charly Sinewan: (Vídeo) Viajar Aunque sea un poco tópico, me gusta mucho viajar y conocer nuevos lugares. Algunas fotos de sitios a los que he ido son las siguientes: Grand Place de Bruselas Imagen de Bruselas y su plaza Ópera de Viena Imagen de Viena y su ópera Barrio Rojo de Ámsterdam"
+        },
+        {
+            "id": "musica.html",
+            "content": "Música Musica Grupos favoritos Tengo que destacar que la música que más me gusta es la música en español, aún así, escucho también algo de música en inglés. Normalmente no me ciño solo a un género, si no que me fijo más en si la canción concreta me gusta o no. Algunos artistas que suelo escuchar con más asiduidad son: En español: 1. Leiva 2. Juancho Marqués 3. Izal 4. Vetusta Morla 5. La M.O.D.A 6. RecycledJ 7. Bad Bunny En inglés: 1. Calvin Harris 2. The Chainsmokers 3. Martin Garrix 4. Kygo 5. Avicii 6. David Guetta"
+        },
+        {
+            "id": "series.html",
+            "content": "Series Serie Últimas series vistas La verdad que he tenido tiempo para ponerme al día con varias series tanto en Netflix como HBO, las últimas que he visto y que más me han gustado son las siguientes. Además les pondré una pequeña nota con reseña: The Last of Us Últimas series vistas La verdad que he tenido tiempo para ponerme al día con varias series tanto en Netflix como HBO, las últimas que he visto y que más me han gustado son las siguientes. Además les pondré una pequeña nota con reseña: The Last of Us - Puntuación: 9,5/10 - Muy buena serie ambientada en el videojuego. Refleja muy bien y te mantiene intrigado hasta el final de temporada. Breaking Bad - Puntuación: 9,5/10 - Serie de gran calidad. Una trama que cada vez se complica cada vez más y te hace estar atento a cada detalle. Sin duda si la vuelvo a ver descubro cosas nuevas. Vivir sin permiso - Puntuación: 8/10 - Esta es española y se ambienta en Galicia. La trama está bien y es bastante entretenida, es cierto que los capítulos se hacen largos. Chernobyl - Puntuación: 10/10 - Es una serie brutal que refleja lo que sucedió en el accidente nuclear a la perfección. La he visto 2 veces ya y los 5 capítulos sin duda que se hacen muy cortos."
+        }
+    ]
+}

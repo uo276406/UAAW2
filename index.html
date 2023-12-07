@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Web personal, Contacto">
+    <meta name="author" content="Diego González Suárez">
+    <meta name="description" content="Página web personal de Diego González Suárez">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title> Página web personal - Diego González Suárez </title>
+    <link rel="stylesheet" type="text/css" href="estilos/flex-grow-layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilos/multimedia.css" />
+    <script src="buscador.js"></script>
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "k2ehj5ll8t");
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1> Página web personal </h1>
+    </header>
+    <nav>
+        <img alt="Icono del inicio" src="multimedia/casa.png" />
+        <a href="index.html" target="_self" title="Enlace a inicio">Inicio</a>
+
+        <img alt="Icono de aficiones" src="multimedia/variante-de-balon-de-futbol.png" />
+        <a href="aficiones.html" target="_self" title="Enlace a las aficiones">Aficiones</a>
+
+        <img alt="Icono de música" src="multimedia/nota-musical.png" />
+        <a href="musica.html" target="_self" title="Gustos musicales">Música</a>
+
+        <img alt="Icono de series" src="multimedia/serie.png" />
+        <a href="series.html" target="_self" title="Enlace a las series">Series</a>
+        
+        <label for="search">Buscar:</label>
+        <input type="text" id="search" name="search" placeholder="Buscar...">
+        <button onclick="buscador.buscar()">Buscar</button>
+    </nav>
+
+    <section>
+        <h2>Índice</h2>
+        <ul>
+            <li>
+                <a target="_self" href="#contacto">Información de contacto</a>
+            </li>
+            <li>
+                <a target="_self" href="#presentacion">Carta de presentación</a>
+            </li>
+            <li>
+                <a target="_self" href="#certificaciones">Certificaciones y Experiencia profesional</a>
+            </li>
+        </ul>
+    </section>
+
+    <main>
+        <section id="contacto">
+            <h2> Información de contacto </h2>
+            <ul>
+                <li>
+                    Nombre: Diego González Suárez
+                </li>
+                <li>
+                    Email: <a target="_self" href="mailto:uo276406@uniovi.es">uo276406@uniovi.es</a>
+                </li>
+            </ul>
+            
+            <img alt="Imagen personal" src="multimedia/diego.jpg" />
+
+        </section>
+
+        <section id="presentacion">
+            <h2> Carta de presentación </h2>
+            <p> 
+                Me gradué en junio de 2023 en Ingeniería del Informática del Software en la Universidad de Oviedo. Siempre me ha gustado mucho la tecnología y todo lo relacionado con ella. Más o menos me considero bastante trabajador y organizado.
+            </p>
+
+        </section>
+
+        <section id="certificaciones">
+            <h2> Certificaciones y Experiencia profesional </h2>
+            <ul>
+                <li> Node.js developer. The Cocktail. Octubre 2023 - Actualidad.</li>
+                <li> Becario en la Cátedra en IA y análisis de datos. TotalEnergies. Julio 2022 - Agosto 2022. </li>
+                <li> CEFR Level B2 en inglés. Escuela Oficial de Idiomas. Junio 2021. </li>
+            </ul>
+
+        </section>
+    </main>
+    <footer>
+        <h2>Enlaces externos</h2>
+        <ul>
+            <li>
+                <a href="https://uniovi.es" target="_self" title="Enlace a la web de la Universidad de Oviedo">Universidad de
+                    Oviedo</a>
+            </li>
+            <li>
+                <a href="https://miw.uniovi.es" target="_self" title="Enlace a la web del máster">Máster en Ingeniería Web</a>
+            </li>
+            <li>
+                <img alt="Icono de Linkedin" src="multimedia/linkedin.png" />
+                <a href="https://www.linkedin.com/in/diego-gonz%C3%A1lez-su%C3%A1rez-64b2371b1/" target="_self" title="Enlace a perfil de Linkedin">Perfil de Linkedin</a>
+            </li>
+            <li>
+                <img alt="Icono de Github" src="multimedia/github.png" />
+                <a href="https://github.com/uo276406" target="_self" title="Enlace a perfil de Github">Perfil de Github</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

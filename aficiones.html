@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Web personal, Aficiones">
+    <meta name="author" content="Diego González Suárez">
+    <meta name="description" content="Página web personal de Diego González Suárez">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title> Página web personal - Aficiones </title>
+    <link rel="stylesheet" type="text/css" href="estilos/multimedia.css" />
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilos/grid-three-col-layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilos/flex-grow-layout.css" />
+    <script src="buscador.js"></script>
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "k2ehj5ll8t");
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <h1> Aficiones </h1>
+    </header>
+
+    <nav>
+        <img alt="Icono del inicio" src="multimedia/casa.png" />
+        <a href="index.html" target="_self" title="Enlace a inicio">Inicio</a>
+
+        <img alt="Icono de aficiones" src="multimedia/variante-de-balon-de-futbol.png" />
+        <a href="aficiones.html" target="_self" title="Enlace a las aficiones">Aficiones</a>
+
+        <img alt="Icono de música" src="multimedia/nota-musical.png" />
+        <a href="musica.html" target="_self" title="Gustos musicales">Música</a>
+
+        <img alt="Icono de series" src="multimedia/serie.png" />
+        <a href="series.html" target="_self" title="Enlace a las series">Series</a>
+        
+        <label for="search">Buscar:</label>
+        <input type="text" id="search" name="search" placeholder="Buscar...">
+        <button onclick="buscador.buscar()">Buscar</button>
+    </nav>
+
+    <section>
+        <h2>Índice</h2>
+        <ul>
+            <li>
+                <a target="_self" href="#deportes">Deportes</a>
+            </li>
+            <li>
+                <a target="_self" href="#motos">Motos</a>
+            </li>
+            <li>
+                <a target="_self" href="#viajar">Viajar</a>
+            </li>
+        </ul>
+    </section>
+
+    <main>
+        <section id="deportes">
+            <h2> Deportes </h2>
+            <p> Me gusta mucho el deporte en general, tanto practicarlo como verlo. Los deportes que más me gustan son:
+            </p>
+            <ul>
+                <li> Fútbol </li>
+                <li> Pádel </li>
+                <li> Fórmula 1 </li>
+                <li> Senderismo </li>
+            </ul>
+        </section>
+        <section id="motos">
+            <h2> Motos </h2>
+            <p> Me gusta hacer viajes en moto. Suelo seguir además a muchos influencers que son motoviajeros y
+                documentan sus aventuras: </p>
+            <ul>
+                <li> <a href="https://www.youtube.com/@Nico-RideMeFive" target="_self" title="Enlace al canal de Ride me five"> Nico -
+                        Ride
+                        Me Five </a> </li>
+                <li> <a href="https://www.youtube.com/user/charlysinewan" target="_self" title="Enlace al canal de Charly Sinewan">
+                        Charly
+                        Sinewan </a> </li>
+                <li> <a href="https://www.youtube.com/@PabloImhoff" target="_self" title="Enlace al canal de Pablo Imhoff"> Pablo
+                        Imhoff
+                    </a> </li>
+            </ul>
+            <video controls>
+                <source src="multimedia/CharlySinewan.mp4" type="video/mp4" />
+                <source src="multimedia/CharlySinewan.mp4" type="video/webm" />
+                <p>
+                  Your browser doesn't support HTML video. Here is a
+                  <a target="_self" href="multimedia/CharlySinewan.mp4">link to the video</a> instead.
+                </p>
+              </video>
+        </section>
+        <section id="viajar">
+            <h2> Viajar </h2>
+            <p> Aunque sea un poco tópico. Me gusta mucho viajar y conocer nuevos lugares. Algunos fotos de sitios a los que he ido son las
+                sigientes:
+            </p>
+            <figure>
+                <img alt="Imagen de Bruselas y su plaza" src="multimedia/bruselas.jpg" />
+                <figcaption> Grand Place de Bruselas </figcaption>
+            </figure>
+            <figure>
+                <img alt="Imagen de Viena y su ópera" src="multimedia/viena.jpg" />
+                <figcaption> Ópera de Viena </figcaption>
+            </figure>
+            <figure>
+                <img alt="Imagen de Ámsterdam y su barrio rojo" src="multimedia/amsterdam.jpg" />
+                <figcaption> Barrio Rojo de Ámsterdam </figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Enlaces externos</h2>
+        <ul>
+            <li>
+                <a href="https://uniovi.es" target="_self" title="Enlace a la web de la Universidad de Oviedo">Universidad de
+                    Oviedo</a>
+            </li>
+            <li>
+                <a href="https://miw.uniovi.es" target="_self" title="Enlace a la web del máster">Máster en Ingeniería Web</a>
+            </li>
+            <li>
+                <img alt="Icono de Linkedin" src="multimedia/linkedin.png" />
+                <a href="https://www.linkedin.com/in/diego-gonz%C3%A1lez-su%C3%A1rez-64b2371b1/" target="_self" title="Enlace a perfil de Linkedin">Perfil de Linkedin</a>
+            </li>
+            <li>
+                <img alt="Icono de Github" src="multimedia/github.png" />
+                <a href="https://github.com/uo276406" target="_self" title="Enlace a perfil de Github">Perfil de Github</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

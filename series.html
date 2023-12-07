@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Web personal, Series">
+    <meta name="author" content="Diego González Suárez">
+    <meta name="description" content="Página web personal de Diego González Suárez">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title> Página web personal - Series </title>
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilos/tabla.css" />
+    <link rel="stylesheet" type="text/css" href="estilos/multimedia.css" />
+    <script src="buscador.js"></script>
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "k2ehj5ll8t");
+    </script>
+    
+</head>
+
+<body>
+    <header>
+        <h1> Series </h1>
+    </header>
+    <nav>
+        <img alt="Icono del inicio" src="multimedia/casa.png" />
+        <a href="index.html" target="_self" title="Enlace a inicio">Inicio</a>
+
+        <img alt="Icono de aficiones" src="multimedia/variante-de-balon-de-futbol.png" />
+        <a href="aficiones.html" target="_self" title="Enlace a las aficiones">Aficiones</a>
+
+        <img alt="Icono de música" src="multimedia/nota-musical.png" />
+        <a href="musica.html" target="_self" title="Gustos musicales">Música</a>
+
+        <img alt="Icono de series" src="multimedia/serie.png" />
+        <a href="series.html" target="_self" title="Enlace a las series">Series</a>
+        
+        <label for="search">Buscar:</label>
+        <input type="text" id="search" name="search" placeholder="Buscar...">
+        <button onclick="buscador.buscar()">Buscar</button>
+    </nav>
+
+    <main>
+        <section>
+            <h2> Últimas series vistas </h2>
+            <p> La verdad que he tenido tiempo para ponerme al día con varias series tanto en Netflix como HBO, las
+                últimas que he visto y que más me han gustado son las siguientes: </p>
+
+                <table>
+                    <caption>Series principales que destacaría</caption>
+                    <thead>
+                        <tr>
+                            <th id="serie" scope="col">Serie</th>
+                            <th id="puntuacion" scope="col">Puntuación</th>
+                            <th id="reseña" scope="col">Reseña</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th id="thelastofus" scope="row">The Last of Us</th>
+                            <td headers="puntuacion">9,5/10</td>
+                            <td headers="reseña">Muy buena serie ambientada en el videojuego. Refleja muy bien y te mantiene
+                                intrigado hasta el final de temporada.</td>
+                        </tr>
+                        <tr>
+                            <th id="breakingbad" scope="row">Breaking Bad</th>
+                            <td headers="puntuacion">9,5/10</td>
+                            <td headers="reseña">Serie de gran calidad. Una trama que cada vez se complica más y te hace estar
+                                atento a cada detalle. Sin duda, si la vuelvo a ver, descubro cosas nuevas.</td>
+                        </tr>
+                        <tr>
+                            <th id="vivirsinpermiso" scope="row">Vivir sin permiso</th>
+                            <td headers="puntuacion">8/10</td>
+                            <td headers="reseña">Esta es española y se ambienta en Galicia. La trama está bien y es bastante
+                                entretenida, aunque los capítulos se hacen largos.</td>
+                        </tr>
+                        <tr>
+                            <th id="chernobyl" scope="row">Chernobyl</th>
+                            <td headers="puntuacion">10/10</td>
+                            <td headers="reseña">Es una serie brutal que refleja lo que sucedió en el accidente nuclear a la
+                                perfección. La he visto 2 veces ya y los 5 capítulos sin duda se hacen muy cortos.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+        </section>
+    </main>
+    <footer>
+        <h2>Enlaces externos</h2>
+        <ul>
+            <li>
+                <a href="https://uniovi.es" target="_self" title="Enlace a la web de la Universidad de Oviedo">Universidad de
+                    Oviedo</a>
+            </li>
+            <li>
+                <a href="https://miw.uniovi.es" target="_self" title="Enlace a la web del máster">Máster en Ingeniería Web</a>
+            </li>
+            <li>
+                <img alt="Icono de Linkedin" src="multimedia/linkedin.png" />
+                <a href="https://www.linkedin.com/in/diego-gonz%C3%A1lez-su%C3%A1rez-64b2371b1/" target="_self" title="Enlace a perfil de Linkedin">Perfil de Linkedin</a>
+            </li>
+            <li>
+                <img alt="Icono de Github" src="multimedia/github.png" />
+                <a href="https://github.com/uo276406" target="_self" title="Enlace a perfil de Github">Perfil de Github</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
